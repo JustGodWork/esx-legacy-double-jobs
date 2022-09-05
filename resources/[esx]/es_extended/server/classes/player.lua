@@ -132,7 +132,7 @@ function CreateExtendedPlayer(playerId, identifier, group, accounts, inventory, 
 	end
 
 	function self.getJob2() -- Job2 support
-		return self.job
+		return self.job2
 	end
 
 	function self.getLoadout(minimal)
